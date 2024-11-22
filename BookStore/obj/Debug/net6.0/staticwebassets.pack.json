@@ -9,12 +9,24 @@
       "PackagePath": "staticwebassets\\Image\\unknown.png"
     },
     {
+      "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
       "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "D:\\1EXPPP\\BookStore\\BookStore\\wwwroot\\js\\site.js",

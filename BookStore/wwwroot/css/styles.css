@@ -1,0 +1,90 @@
+﻿body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .table th, .table td {
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #343a40;
+        color: #fff;
+    }
+
+    .table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .table .btn-group .btn {
+        margin-right: 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .btn-dark:hover {
+        background-color: #555;
+    }
+
+.btn-custom-edit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .btn-custom-edit:hover {
+        background-color: #0056b3;
+    }
+
+.btn-custom-details {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .btn-custom-details:hover {
+        background-color: #5a6268;
+    }
+
+.btn-custom-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .btn-custom-delete:hover {
+        background-color: #c82333;
+    }
+
+.img-thumbnail {
+    border: none;
+    border-radius: 50%;
+}

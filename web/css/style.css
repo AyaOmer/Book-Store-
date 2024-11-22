@@ -1,0 +1,294 @@
+*{
+    font-family: sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+:root{
+    --chinese-violet_30: hsla(304, 14%, 46%, 0.3);
+    --chinese-violet: hsl(304, 14%, 46%);
+    --sonic-silver: hsl(208, 7%, 46%);
+    --old-rose_30: hsla(357, 37%, 62%, 0.3);
+    --ghost-white: hsl(233, 33%, 95%);
+    --light-pink: hsl(357, 93%, 84%);
+    --light-gray: hsl(0, 0%, 80%);
+    --old-rose: hsl(357, 37%, 62%);
+    --seashell: hsl(20, 43%, 93%);
+    --charcoal: hsl(203, 30%, 26%);
+    --border:.1rem solid rgb(0,0,0,.1);
+    --border-hover:.1rem solid #444;
+    --box-shadow:0.5rem 1rem rgb(0,0,0,.1);
+
+}
+html{
+font-size: 62%;
+overflow-x:hidden ;
+scroll-padding-top: 5rem;
+scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+   background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #444;
+ } 
+ .btn{
+
+    margin-top: 1rem;
+    display:inline-block;padding: .9rem 3rem;
+    border-radius: .5rem;
+    color:#fff;background-color: rgb(57, 57, 107);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.btn:hover{
+background: rgb(194, 114, 23);
+}
+
+ .header .header-1{
+    padding:1.5rem 9%;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ } 
+ .header .header-1 .logo{
+font-size: 2rem;
+font-weight: bolder;
+color:#444; 
+}
+
+.header .header-1 .logo .book {
+color:var( --charcoal);
+}
+.header .header-1 .search-form{
+width: 50rem;
+height: 5rem;
+border: var(--border);
+overflow: hidden;
+background-color: #fff;
+display: flex;
+align-items: center;
+border-radius: 5rem;
+
+}
+.header .header-1 .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color:#444;
+}
+.header .header-1 .search-form .search-label{
+    font-size: 2.5rem;
+    padding-right:1.5rem;
+    color:#444;
+    cursor: pointer;
+}
+.header .header-1 .search-form .search-label:hover{
+   
+    color:var(--old-rose);
+
+}
+
+.header .header-1 .icons .icon-div ,
+.header .header-1 .icons .icon-a{
+
+ font-size: 2.5rem;
+   margin-left:1.5rem;
+    color:#444;
+    cursor: pointer;
+}
+.header .header-1 .icons .icon-div :hover,
+.header .header-1 .icons .icon-a:hover{
+    color: var( --chinese-violet);
+}
+#search-icon{
+    display: none;
+}
+.header .header-2 
+{
+    background: var(--seashell);
+}
+.header .header-2 .navbar{
+    text-align: center;
+}
+.header .header-2 .navbar a{
+    color:var( --chinese-violet_30);
+    display: inline-block;
+    padding: 1.2rem;
+    font-size:1.7rem;
+
+}
+.header .header-2 .navbar a:hover{
+    background-color: #444;
+}
+.header .header-2.active{
+    position: fixed;
+    top:0;left:0;right: 0;
+    z-index: 1000;
+}
+/* navbar bottom */
+.bottom-navbar{
+    text-align: center;
+    background: var(--seashell);
+    position: fixed;
+    bottom: 0;left: 0;right: 0;
+    z-index: 1000;
+    /* display: none; */
+}
+
+.bottom-navbar .bot-a {
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #444;
+}
+.bottom-navbar .bot-a:hover{
+    background: var(--chinese-violet_30);
+}
+
+
+/* Login */
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,9);
+    position: fixed;
+    top:0;left:0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+.login-form form{
+    background-color: #fff;
+    border:var(--border);
+    width:40rem;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+.login-form form h3{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color:#444;
+     text-align:center ;
+   margin: 1.7rem 0;
+
+}
+.login-form form span{
+display:block;
+font-size: 1.5rem;
+padding-top: 1rem;
+}
+.login-form form .box{
+    width:100%;
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    color:#444;
+    text-transform: none;
+
+
+}
+.login-form form .checkbox{
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+    padding: 1rem 0;
+
+}
+.login-form form .checkbox label{
+    font-size: 1.5rem;
+    color:var(--chinese-violet_30);
+    cursor: pointer;
+}
+
+.login-form form .btn{
+    text-align: center;
+    width: 100%;
+   margin: 1.5rem 0;
+}
+
+.login-form form p{
+    padding-top: .8rem;
+    color: var(--sonic-silver);
+    font-size: 1.5rem;
+
+}
+
+.login-form form p a{
+text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width:991px) {
+    html{
+        font-size:55%;
+    }
+    .header .header-1{
+        padding: 2rem;
+    }
+}
+@media (max-width:768px){
+    html{
+        scroll-padding-top: 0;
+    }
+    body{
+        padding-bottom: 6rem;
+    }
+    .header .header-2{
+        display:none;
+    }
+    #search-icon{
+        display: inline-block;
+    }
+    .header .header-1{
+       box-shadow: var(--box-shadow);
+       position: relative;
+
+
+    }
+    .header .header-1 .search-form{
+        position: absolute;
+        top:-115%;right: 2rem;
+        width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+    .header .header-1 .search-form.active{
+        top:115%;
+    }
+    .bottom-navbar {
+        display:block;
+    }
+
+}
+@media (max-width:450px) {
+    html{
+        font-size:50%;
+    }
+    
+}
